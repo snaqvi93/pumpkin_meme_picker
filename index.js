@@ -21,15 +21,7 @@ function getMatchingCatsArray(){
     if(document.querySelector('input[type="radio"]:checked')){
         const selectedEmotion = document.querySelector('input[type="radio"]:checked').value
         const isGif = gifsOnlyOption.checked
-/*
-Challenge:
-1. Use the .filter() and .includes() methods to get 
-   an array of cats which have the selected emotion
-   in their emotionTags array. 
-2. Store this array in a const and log it out to check
-   it's working. Think: what would be a good name for the
-   const?
-*/  
+
     }  
 }
 
